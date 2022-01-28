@@ -1,0 +1,34 @@
+.btn {
+    text-decoration: none;
+    appearance: none;
+      -webkit-appearance: none;
+    font-family: sans-serif;
+    cursor: pointer;
+    padding: 10px 20px;
+    min-width: 10px;
+    border-radius: 5px;
+    border: 0px;
+      -webkit-transition: background-color 100ms linear;
+      -ms-transition: background-color 100ms linear;
+       transition: background-color 100ms linear;
+  }
+
+  .btn-primary {
+    background: #3498db;
+    color: #ffffff;
+  }
+  
+  .btn-primary:hover {
+    background: #2980b9;
+    color: #ffffff;
+  }
+  
+  .btn-success {
+    background: #2ecc71;
+    color: #ffffff;
+  }
+  
+  .btn-success:hover {
+    background: #27ae60;
+    color: #ffffff;
+  }
